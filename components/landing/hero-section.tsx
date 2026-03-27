@@ -6,9 +6,9 @@ export function HeroSection() {
   return (
     <section
       id="hero"
-      className="min-h-screen flex flex-col items-center justify-center px-6"
+      className="min-h-screen flex flex-col items-center justify-center px-4 sm:px-6"
     >
-      <h1 className="max-w-2xl text-3xl sm:text-4xl md:text-[42px] font-medium tracking-tight text-gray-900 text-center leading-tight mb-12">
+      <h1 className="text-[clamp(1rem,4.2vw,2.625rem)] font-medium tracking-tight text-gray-900 text-center leading-tight mb-12 whitespace-nowrap">
         Practice oral argument with AI judges.
       </h1>
       <AiOrb />
